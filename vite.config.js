@@ -7,6 +7,6 @@ export default defineConfig({
   base: "/", // Update this if hosting under a subpath
   build: {
     outDir: "dist", // Default output directory
-    chunkSizeWarningLimit: 1000,
+    chunkSizeWarningLimit: 1500,
   },
 });
