@@ -13,7 +13,7 @@ const App = () => {
         ))}
       </div>
       <div className="absolute  flex justify-center items-center flex-col  text-white top-[22%] left-1/2 -translate-x-1/2">
-        <h3 className="masked font-bold text-6xl">macbook pro.</h3>
+        <h3 className="masked font-bold text-8xl">macbook pro.</h3>
         <h5>Oh so pro !</h5>
         <p className="text-center w-3/4">
          
@@ -21,7 +21,7 @@ const App = () => {
           omnis debitis perspiciatis dolorem odit.
         </p>
       </div>
-      <Canvas camera={{ fov: 20, position: [0, -10, 165] }}>
+      <Canvas camera={{ fov: 20, position: [0, -10, 130] }}>
         <Environment
           files={[
             "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/4k/studio_small_09_4k.hdr",
